@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Settings" />
+    <Preference
+        android:icon="@drawable/ic_folder_setting"
+        android:key="path"
+        android:summary="Choose path directory that you want to save your files"
+        android:title="Choose Directory" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_delete_setting"
+        android:key="deleteFab"
+        android:summary="If Enabled, a Delete button will show up in viewer screen"
+        android:title="Enabled Delete Option" />
+    <PreferenceCategory android:title="Other" />
+
+    <Preference
+        android:icon="@drawable/ic_share_setting"
+        android:key="sharethisapp"
+        android:summary="let your friends know about my app."
+        android:title="Share it" />
+    <Preference
+        android:icon="@drawable/ic_rate_setting"
+        android:key="rateus"
+        android:summary="if app work good. Just take action and Rate us!"
+        android:title="Rate us!" />
+    <Preference
+        android:icon="@drawable/ic_moreapps_setting"
+        android:key="moreapp"
+        android:summary="Check out our other amazign apps."
+        android:title="More Apps" />
+</PreferenceScreen>

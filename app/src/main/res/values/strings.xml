@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Easy WhatsApp Status</string>
+
+    <string name="pref_appname">Status Downloader</string>
+
+    <string name="foldername">Downlaoded WhatsApp Statuses</string>
+
+    <string name="tab_download">Downloaded</string>
+    <string name="tab_home">Available Statuses</string>
+
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+
+
+    <string name="ad_attribution">Ad</string>
+
+    <!--    <string name="admob_interstitial_id">ca-app-pub-8941410356205346/3781117740</string>-->
+
+</resources>
